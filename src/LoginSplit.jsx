@@ -113,7 +113,7 @@ export default function LoginSplit() {
 
       <div className="hidden lg:block relative">
         <img
-          src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+          src="https://images.unsplash.com/photo-1496917756835-20cb06e75b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1908&q=80"
           alt="Desk workspace with a laptop and phone"
           className="absolute inset-0 h-full w-full object-cover"
         />
