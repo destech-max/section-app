@@ -20,6 +20,10 @@ export default function PaymentSuccess() {
           <button className="flex-1 rounded-lg bg-slate-800 py-2 text-sm font-medium text-white hover:bg-slate-700">
             Cancel
           </button>
+
+
+
+          
           <Link
             to="/deactivate"
             className="flex-1 rounded-lg bg-indigo-500 py-2 text-sm font-medium text-white hover:bg-indigo-400 text-center"
