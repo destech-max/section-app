@@ -14,7 +14,7 @@ function Home() {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         <h1 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
-          UI Components
+          Class Work
         </h1>
         <div className="space-y-3">
           {pages.map((page) => (
