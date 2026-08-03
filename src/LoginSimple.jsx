@@ -74,10 +74,6 @@ export default function LoginSimple() {
             Start a 14-day free trial
           </Link>
         </p>
-
-        <p className="mt-3 text-center text-xs text-gray-400">
-          Prefer the other layout?{" "}
-        </p>
       </div>
     </div>
   );

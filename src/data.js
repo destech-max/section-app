@@ -1,0 +1,67 @@
+export const CHATS = [
+  {
+    id: 1,
+    name: "Jane Osuya ",
+    avatar: "OS",
+    lastMessage: "Yo, How are you doing",
+    time: "10:42 AM",
+    unread: 0,
+    messages: [
+      { id: 1, from: "them", text: "Hey! Are we still on for tomorrow?", time: "10:30 AM" },
+      { id: 2, from: "me", text: "Yes definitely, 3pm works for me", time: "10:35 AM" },
+      { id: 3, from: "them", text: "Sounds good, see you then!", time: "10:42 AM" },
+       { id: 3, from: "them", text: "Yo, How are you doing", time: "10:42 AM" },
+    ],
+  },
+  {
+    id: 2,
+    name: "Bro Tobiah Stephen",
+    avatar: "TS",
+    lastMessage: "Jamuzu....... how eh dey be na",
+    time: "9:15 AM",
+    unread: 0,
+    messages: [
+      { id: 1, from: "them", text: "Morning! Can you send the report?", time: "9:00 AM" },
+      { id: 2, from: "me", text: "Sure, one sec", time: "9:10 AM" },
+      { id: 3, from: "them", text: "Sent the files over", time: "9:15 AM" },
+      { id: 3, from: "them", text: "Jamuzu....... how eh dey be na", time: "9:15 AM" },
+    ],
+  },
+  {
+    id: 3,
+    name: "Big Bro Daniel",
+    avatar: "DT",
+    lastMessage: "My Manager, How are you doing",
+    time: "Yesterday",
+    unread: 0,
+    messages: [
+      { id: 1, from: "me", text: "You won't believe what happened today", time: "Yesterday" },
+      { id: 2, from: "them", text: "Haha that's hilarious", time: "Yesterday" },
+      { id: 3, from: "them", text: "My Manager, How are you doing", time: "9:15 AM" },
+    ],
+  },
+  {
+    id: 4,
+    name: "Divine Okezuo",
+    avatar: "DK",
+    lastMessage: "My Boy how far",
+    time: "Yesterday",
+    unread: 0,
+    messages: [
+      { id: 1, from: "them", text: "Updated the mockups, check the folder", time: "Yesterday" },
+      { id: 3, from: "them", text: "My Boy how far", time: "9:15 AM" },
+    ],
+  },
+  {
+    id: 5,
+    name: "Favour Uzoma",
+    avatar: "FU",
+    lastMessage: "Mumu Boy!",
+    time: "Mon",
+    unread: 0,
+    messages: [
+      { id: 1, from: "them", text: "Got the payment, thanks a lot!", time: "Mon" },
+      { id: 1, from: "them", text: "Mumu Boy!", time: "Mon" },
+    ],
+  },
+];
