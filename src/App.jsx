@@ -18,6 +18,16 @@ import AboutMissionSection from "./AboutMissionSection"
 import BetterWorkflowSection from "./BetterWorkflowSection"
 import FaqSection from "./FaqSection"
 import FaqPath from "./FaqPath.jsx"
+import  NotFoundSection from  "./NotFoundSection"
+import NotFoundSplitSection from "./NotFoundSplitSection"
+import PricingSection from "./PricingSection"
+import PricingSections from "./PricingSections"
+import  NewsletterSection from "./NewsletterSection"
+import BetterWorkflowLight from "./BetterWorkflowLight"
+import BetterWorkflowLightReversed from "./BetterWorkflowLightReversed"
+import LogoBarDark from "./LogoBarDark"
+import TrustedTeamsSection from "./TrustedTeamsSection"
+
 
 
 
@@ -39,6 +49,17 @@ const pages = [
    { name: "BetterWorkflowSection", path: "/betterworkflows-section"}, 
     { name: "FaqSection", path: "/faq-section"},
     { name: "FaqPath", path: "/faq-path"},
+    { name: "NOTFOUNDSECTION", path: "/notfound-section"},
+    { name: "NotFoundSplitSection", path: "/notfoundsplit-section"},
+     { name: "PricingSection", path: "/pricing-section"},
+     { name: "PricingSections", path: "/pricing-sections"},
+     { name: " NewsletterSection", path: "/news-letters"},
+     { name: " BetterWorkflowLight", path: "/better-light"},
+     { name: " BetterWorkflowLightReversed", path: "/better-flow"},
+     { name: " LogoBarDark", path: "/logo-bar"},
+     { name: "TrustedTeamsSection", path: "/trusted-team"},
+
+
        
        
 
@@ -72,27 +93,34 @@ export default function App() {
 
  
   
-  <Routes>
-  //       <Route path="/" element={<Home />} />
-  //     <Route path="/login" element={<LoginSimple />} />
-  //     <Route path="/login-split" element={<LoginSplit />} />
-  //     <Route path="/payment-success" element={<PaymentSuccess />} />
-  //     <Route path="/deactivate" element={<DeactivateModal />} />
-  //     <Route path="/data" element={<Data/>}/>
-  //     <Route path="/data-split" element={<DataSplit/>}/>
-  //     <Route path="/time-linesection" element={<TimelineSection/>}/>
-  //     <Route path="/track-recordsection" element={<TrackRecordSection/>}/>
+    <Routes>
+        <Route path="/" element={<Home />} />
+     <Route path="/login" element={<LoginSimple />} />
+    <Route path="/login-split" element={<LoginSplit />} />
+ <Route path="/payment-success" element={<PaymentSuccess />} />
+  <Route path="/deactivate" element={<DeactivateModal />} />
+     <Route path="/data" element={<Data/>}/>
+     <Route path="/data-split" element={<DataSplit/>}/>   
+      <Route path="/time-linesection" element={<TimelineSection/>}/>
+    <Route path="/track-recordsection" element={<TrackRecordSection/>}/>
          <Route path="/testimonial-section" element={<TestimonialsSection/>}/>
         <Route path="/testimonial-card" element={<TestimonialCard/>}/>
-        <Route path="/contact-saleform" element={<ContactSalesForm/>}/>
+        <Route path="/contact-saleform" element={<ContactSalesForm/>} />     
         <Route path="/contact-salelist" element={<ContactSalesList/>}/>
-        <Route path="/leadership-section" element={<LeadershipSection/>}/>
-         <Route path="/leadership-grid" element={<LeadershipGrid/>}/>
-        <Route path="/betterworkflows-section" element={<BetterWorkflowSection/>}/>
-        <Route path="/aboutmission-section" element={<AboutMissionSection/>}/>
-        <Route path="/faq-section" element={<FaqSection/>}/>
-        <Route path="/faq-path" element={<FaqPath/>}/>
-
-  //   </Routes>
+<Route path="/leadership-section" element={<LeadershipSection/>}/>
+      <Route path="/leadership-grid" element={<LeadershipGrid/>}/>
+       <Route path="/betterworkflows-section" element={<BetterWorkflowSection/>}/>
+       <Route path="/aboutmission-section" element={<AboutMissionSection/>}/>
+      <Route path="/faq-section" element={<FaqSection/>}/>
+      <Route path="/faq-path" element={<FaqPath/>}/> 
+       <Route path="/ notfound-section" element={< NotFoundSection/>}/>
+<Route path="/ notfoundsplit-section" element={< NotFoundSplitSection/>}/>
+<Route path="/pricing-sections" element={< PricingSections/>}/>
+<Route path="/news-section" element={< NewsletterSection/>}/>
+<Route path="/better-light" element={<BetterWorkflowLight/>}/>
+<Route path="/better-flow" element={<BetterWorkflowLightReversed/>}/>
+<Route path="/logo-bar" element={<LogoBarDark/>}/>
+<Route path="/trusted-team" element={<TrustedTeamsSection/>}/>
+   </Routes>
   );
 }
