@@ -35,7 +35,7 @@ export default function FooterWithNewsletter() {
               <ul className="space-y-3">
                 {col.links.map((link, j) => (
                   <li key={j}>
-                    
+                    <a
                       href="#"
                       className="text-gray-500 text-sm hover:text-gray-900"
                     >
