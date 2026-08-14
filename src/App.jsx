@@ -27,9 +27,6 @@ import BetterWorkflowLight from "./BetterWorkflowLight"
 import BetterWorkflowLightReversed from "./BetterWorkflowLightReversed"
 import LogoBarDark from "./LogoBarDark"
 import TrustedTeamsSection from "./TrustedTeamsSection"
-import HotelDetailPage from "./HotelDetailPage"
-import HotelDetailMobile from "./HotelDetailMobile"
-import WalletHomeScreen from "./WalletHomeScreen"
 
 
 
