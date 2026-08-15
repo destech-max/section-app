@@ -35,11 +35,8 @@ import TrustedTeamsSection from "./TrustedTeamsSection"
 const pages = [
   { name: "Login (simple)", path: "/login" },
   { name: "Payment success", path: "/payment-success" },
-   { name: "Data", path: "/Data" },
    { name: "TimelineSection", path: "/time-linesection" },
    { name: "TrackRecordSection", path: "/track-recordsection" },
-    { name: "TestimonialSection", path: "/testimonial-section" },
-    { name: "TestimonialCard", path: "/testimonial-card" },
      { name: "ContactSalesForm", path: "/contact-saleform" },
      { name: "ContactSalesList", path: "/contact-salelist" },
      { name: "LeadershipSection", path: "/leadership-section" },
@@ -66,10 +63,10 @@ const pages = [
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-slate-500 flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         <h1 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
-          Class Work
+          Assignment project
         </h1>
         <div className="space-y-3">
           {pages.map((page) => (
@@ -97,13 +94,9 @@ export default function App() {
      <Route path="/login" element={<LoginSimple />} />
     <Route path="/login-split" element={<LoginSplit />} />
  <Route path="/payment-success" element={<PaymentSuccess />} />
-  <Route path="/deactivate" element={<DeactivateModal />} />
-     <Route path="/data" element={<Data/>}/>
-     <Route path="/data-split" element={<DataSplit/>}/>   
+  <Route path="/deactivate" element={<DeactivateModal />} />   
       <Route path="/time-linesection" element={<TimelineSection/>}/>
     <Route path="/track-recordsection" element={<TrackRecordSection/>}/>
-         <Route path="/testimonial-section" element={<TestimonialsSection/>}/>
-        <Route path="/testimonial-card" element={<TestimonialCard/>}/>
         <Route path="/contact-saleform" element={<ContactSalesForm/>} />     
         <Route path="/contact-salelist" element={<ContactSalesList/>}/>
 <Route path="/leadership-section" element={<LeadershipSection/>}/>
